@@ -1,0 +1,324 @@
+[
+  {
+    "id": 1,
+    "game_type": "upi_decision",
+    "time_limit": 15,
+    "title": { "en": "Level 1: OLX / UPI Payment Scam", "hi": "लेवल 1: OLX / UPI पेमेंट स्कैम" },
+    "instruction": { "en": "ACTION REQUIRED: OLX buyer sent a ₹4,500 UPI request. Click the right button!", "hi": "एक्शन जरूरी: OLX खरीदार ने ₹4,500 लेने के लिए UPI रिक्वेस्ट भेजी है। सही बटन दबाएं!" },
+    "content": {
+      "sender": { "en": "Rahul Kumar (OLX Buyer)", "hi": "राहुल कुमार (OLX खरीदार)" },
+      "amount": "₹ 4,500",
+      "note": { "en": "Enter UPI PIN to RECEIVE sofa payment in your bank account.", "hi": "सोफा के पैसे अपने बैंक खाते में प्राप्त (RECEIVE) करने के लिए UPI PIN डालें।" },
+      "warning_text": { "en": "You are entering UPI PIN", "hi": "सावधानी: आप अपना UPI PIN डाल रहे हैं" }
+    },
+    "interactive_elements": [
+      { "id": "enter_pin", "label": { "en": "Enter UPI PIN & Receive Money", "hi": "PIN डालें और पैसे प्राप्त करें" }, "type": "danger" },
+      { "id": "reject", "label": { "en": "CANCEL / DECLINE (Scam)", "hi": "कैंसल करें (यह स्कैम है)" }, "type": "safe" }
+    ],
+    "correct_action": "reject",
+    "feedback": {
+      "verdict": { "en": "🎉 PERFECT ACTION!", "hi": "🎉 बिल्कुल सही कदम!" },
+      "rule": { "en": "Tech Defender Rule: UPI PIN is ONLY entered to SEND money. You NEVER need a PIN to receive money!", "hi": "टेक डिफेंडर नियम: UPI PIN सिर्फ किसी को पैसे भेजने (Send) के लिए डाला जाता है। पैसे प्राप्त (Receive) करने के लिए कभी PIN नहीं लगता!" }
+    }
+  },
+  {
+    "id": 2,
+    "game_type": "family_group_defend",
+    "time_limit": 15,
+    "title": { "en": "Level 2: Family WhatsApp Group Defender", "hi": "लेवल 2: फैमिली WhatsApp ग्रुप सुरक्षा" },
+    "instruction": { "en": "GROUP DEFENDER: Uncle posted a fake Free Recharge link in 'Sharma Parivaar'. Delete it before Mom clicks!", "hi": "ग्रुप सुरक्षा: 'शर्मा परिवार' ग्रुप में अंकल ने फ्री रिचार्ज का लिंक भेजा है। मम्मी के क्लिक करने से पहले लिंक डिलीट करें!" },
+    "content": {
+      "group_name": { "en": "Sharma Parivaar 🌺 (Family Group)", "hi": "शर्मा परिवार 🌺 (फैमिली ग्रुप)" },
+      "msg1_sender": { "en": "Ramesh Uncle", "hi": "रमेश अंकल" },
+      "msg1_text": { "en": "🎉 Jio & Airtel giving 6 Months FREE Recharge! Click link fast: http://jio-free-recharge-yojana.top", "hi": "🎉 जियो और एयरटेल दे रहे हैं 6 महीने का फ्री रिचार्ज! जल्दी लिंक पर क्लिक करें: http://jio-free-recharge-yojana.top" },
+      "msg2_sender": { "en": "Mummy Ji", "hi": "मम्मी जी" },
+      "msg2_text": { "en": "Oh wow! Let me click and recharge my phone right now!!", "hi": "अरे वाह! मैं अभी इस लिंक पर क्लिक करके अपना फोन रिचार्ज करती हूँ!!" },
+      "del_btn_text": { "en": "🗑️ Delete for Everyone", "hi": "🗑️ सबके लिए डिलीट करें (Delete for Everyone)" }
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 FAMILY PROTECTED!", "hi": "🎉 परिवार सुरक्षित हुआ!" },
+      "rule": { "en": "Tech Defender Rule: Free recharge or government ration forwards in family groups are 100% phishing scams. Protect your elders immediately!", "hi": "टेक डिफेंडर नियम: फैमिली ग्रुप्स में आने वाले फ्री रिचार्ज या योजना के मैसेज 100% फर्जी लिंक होते हैं। अपने बड़ों को तुरंत सचेत करें!" }
+    }
+  },
+  {
+    "id": 3,
+    "game_type": "reverse_hacker",
+    "time_limit": 20,
+    "title": { "en": "Level 3: Reverse Hacker — Build a Scam SMS", "hi": "लेवल 3: रिवर्स हैकर — स्कैम SMS बनाएं" },
+    "instruction": { "en": "THINK LIKE A SCAMMER: How do scammers panic victims? Select words below to build a 'Fake Bank Alert' to understand their trick!", "hi": "स्कैमर की तरह सोचें: स्कैमर्स लोगों को कैसे डराते हैं? नीचे दिए गए शब्दों को चुनकर एक फर्जी बैंक मैसेज बनाएं!" },
+    "content": {
+      "prompt": { "en": "Select words to create a high-urgency scam message:", "hi": "लोगों को डराने वाला स्कैम मैसेज बनाने के लिए शब्द चुनें:" },
+      "target_words": ["URGENT: Account Blocked!", "hdfc-kyc-update.top"],
+      "options": ["Dear Sir/Madam,", "URGENT: Account Blocked!", "hdfcbank.com/support", "hdfc-kyc-update.top", "Have a nice day."]
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 NOW YOU KNOW THEIR TRICK!", "hi": "🎉 अब आप उनकी चालाकी समझ गए!" },
+      "rule": { "en": "Tech Defender Rule: Scammers always combine URGENCY (fear of account blocking) with LOOKALIKE LINKS (typosquatting) to make you click without thinking.", "hi": "टेक डिफेंडर नियम: स्कैमर्स हमेशा जल्दबाजी (खाता बंद होने का डर) और मिलते-जुलते फर्जी लिंक का इस्तेमाल करते हैं ताकि आप बिना सोचे क्लिक कर दें।" }
+    }
+  },
+  {
+    "id": 4,
+    "game_type": "panic_room",
+    "time_limit": 25,
+    "title": { "en": "Level 4: The 60-Second Panic Room", "hi": "लेवल 4: 60-सेकंड पैनिक रूम (इमरजेंसी)" },
+    "instruction": { "en": "EMERGENCY FIRST-AID: You accidentally clicked a bad link and your phone is being hacked! Tap the 3 steps in EXACT SEQUENCE (Order 1 -> 2 -> 3)!", "hi": "इमरजेंसी बचाव: आपसे गलती से स्कैम लिंक पर क्लिक हो गया है! नीचे दिए गए 3 कदमों को सही क्रम (1 -> 2 -> 3) में दबाएं!" },
+    "content": {
+      "alert_text": { "en": "🚨 CRITICAL: MALWARE DOWNLOADING IN BACKGROUND... (80%) 🚨", "hi": "🚨 चेतावनी: फोन में बैकग्राउंड वायरस डाउनलोड हो रहा है... (80%) 🚨" },
+      "steps": [
+        { "id": "flight", "label": { "en": "Turn ON Flight Mode ✈️ (Disconnect Internet)", "hi": "फ्लाइट मोड ON करें ✈️ (इंटरनेट बंद करें)" }, "order": 1 },
+        { "id": "freeze", "label": { "en": "Freeze Bank Accounts & Block UPI 🏦", "hi": "बैंक खाते फ्रीज करें और UPI ब्लॉक करें 🏦" }, "order": 2 },
+        { "id": "call", "label": { "en": "Dial 1930 (National Cyber Helpline) 📞", "hi": "1930 (राष्ट्रीय साइबर हेल्पलाइन) पर कॉल करें 📞" }, "order": 3 }
+      ]
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 EMERGENCY CONTROLLED!", "hi": "🎉 खतरा टल गया!" },
+      "rule": { "en": "Tech Defender Rule: If you click a bad link, don't panic! First, enable Flight Mode to sever internet access so hackers can't steal data. Then freeze accounts and dial 1930!", "hi": "टेक डिफेंडर नियम: यदि गलत लिंक पर क्लिक हो जाए, तो घबराएं नहीं! सबसे पहले फ्लाइट मोड ON करें ताकि इंटरनेट कटे और हैकर डेटा ना चुरा सके। फिर बैंक सूचित करें और 1930 मिलाएं!" }
+    }
+  },
+  {
+    "id": 5,
+    "game_type": "qr_peel",
+    "time_limit": 15,
+    "title": { "en": "Level 5: Shopkeeper's QR Sticker Scanner", "hi": "लेवल 5: दुकानदार का QR स्टिकर स्कैम" },
+    "instruction": { "en": "PHYSICAL SECURITY: A scammer pasted a fake sticker over the tea stall's QR stand. Click on the FAKE STICKER to peel it off before paying!", "hi": "फिजिकल सुरक्षा: चाय की दुकान पर किसी ने दुकानदार के QR स्टैंड पर अपना फर्जी स्टिकर चिपका दिया है। पैसे देने से पहले फर्जी स्टिकर पर क्लिक करके उसे उखाड़ें!" },
+    "content": {
+      "shop_name": { "en": "Raju Tea Stall & Snacks", "hi": "राजू टी स्टॉल एंड स्नैक्स" },
+      "real_qr_text": { "en": "✅ REAL SHOPKEEPER QR (Raju Tea)", "hi": "✅ असली दुकानदार का QR (राजू टी)" },
+      "fake_qr_text": { "en": "⚠️ FAKE SCAMMER STICKER (Pay to Scammer)", "hi": "⚠️ फर्जी स्कैमर का स्टिकर (चोर का QR)" },
+      "tip_text": { "en": "👉 CLICK OR DRAG TO PEEL STICKER!", "hi": "👉 स्टिकर उखाड़ने के लिए क्लिक करें!" }
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 FAKE STICKER REMOVED!", "hi": "🎉 फर्जी स्टिकर हट गया!" },
+      "rule": { "en": "Tech Defender Rule: Always check physical payment QR stands at shops to ensure no fake sticker is pasted over the original. Verify the shopkeeper's name on your screen!", "hi": "टेक डिफेंडर नियम: दुकानों पर पेमेंट करते समय ध्यान दें कि QR स्टैंड के ऊपर कोई अलग से फर्जी स्टिकर तो नहीं चिपका है। स्क्रीन पर दुकानदार का नाम जरूर देखें!" }
+    }
+  },
+  {
+    "id": 6,
+    "game_type": "ai_detective",
+    "time_limit": 20,
+    "title": { "en": "Level 6: AI Voice Clone Detective", "hi": "लेवल 6: AI वॉयस क्लोन (नकली आवाज) स्कैम" },
+    "instruction": { "en": "VOICE IDENTIFICATION: You get a crying voice call from 'Brother' asking for ₹20,000 urgently! Ask the correct verification question to test if it's an AI deepfake!", "hi": "आवाज पहचानो: भाई के नाम से रोते हुए कॉल आई है कि वह पुलिस स्टेशन में है और ₹20,000 चाहिए! आवाज का सच जानने के लिए सही सवाल पूछें!" },
+    "content": {
+      "caller": { "en": "Voice of 'Amit (Brother)'", "hi": "आवाज: 'अमित (भाई)'" },
+      "audio_text": { "en": "🗣️ 'Brother save me! I am in the police station, send ₹20,000 immediately or they will jail me... quick!!'", "hi": "🗣️ 'भाई मुझे बचा ले! मैं पुलिस स्टेशन में फंसा हूँ, अभी इस खाते में ₹20,000 भेज दे वरना जेल हो जाएगी... जल्दी!!'" },
+      "options": [
+        { "label": { "en": "🔴 'Okay brother, sending money right now!'", "hi": "🔴 'ठीक है भाई, अभी तुरंत पैसे भेजता हूँ!'" }, "safe": false },
+        { "label": { "en": "🟡 'What is my current bank balance?'", "hi": "🟡 'मेरे बैंक खाते में अभी कितने पैसे हैं?'" }, "safe": false },
+        { "label": { "en": "🟢 Secret Password Question: 'What was Mom's childhood pet name?'", "hi": "🟢 सीक्रेट परिवार का सवाल: 'मम्मी का बचपन का पेट नाम क्या था?'" }, "safe": true }
+      ]
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 AI DEEPFAKE CAUGHT!", "hi": "🎉 AI की नकली आवाज पकड़ी गई!" },
+      "rule": { "en": "Tech Defender Rule: Scammers use AI audio cloning to mimic family members in emergencies. Always establish a 'Secret Family Password / Question' that scammers cannot guess!", "hi": "टेक डिफेंडर नियम: आजकल AI टूल्स से परिवार वालों की आवाज कॉपी करके डराया जाता है। घर में एक 'सीक्रेट पासवर्ड सवाल' रखें जो सिर्फ परिवार को पता हो!" }
+    }
+  },
+  {
+    "id": 7,
+    "game_type": "incoming_call",
+    "time_limit": 12,
+    "title": { "en": "Level 7: 'Digital Arrest' Fake Police Call", "hi": "लेवल 7: 'डिजिटल अरेस्ट' फर्जी पुलिस कॉल" },
+    "instruction": { "en": "REFLEX DEFUSAL: A fake CBI/Cyber Police officer is calling to threaten you with a 'Digital Arrest'. Make the right reflex choice!", "hi": "तुरंत फैसला: साइबर पुलिस/CBI बनकर एक धमकी भरी वीडियो कॉल आ रही है! तुरंत सही निर्णय लें!" },
+    "content": {
+      "caller_name": { "en": "Inspector Rajesh (CBI Cyber Div)", "hi": "इंस्पेक्टर राजेश (CBI साइबर डिवीजन)" },
+      "caller_number": "+91 98990-11223 (WhatsApp Video)",
+      "status_text": { "en": "⚠️ THREATENING 'DIGITAL ARREST' FOR ILLEGAL PARCEL", "hi": "⚠️ अवैध पार्सल के नाम पर 'डिजिटल अरेस्ट' की धमकी" },
+      "accept_label": { "en": "Answer Call", "hi": "कॉल उठाएं" },
+      "reject_label": { "en": "Disconnect & Report", "hi": "कॉल काटें और शिकायत करें" }
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 PERFECT REFLEX! CALL DISCONNECTED!", "hi": "🎉 बिल्कुल सही! कॉल काट दी गई!" },
+      "rule": { "en": "Tech Defender Rule: There is NO concept of 'Digital Arrest' in Indian law! Real police or CBI will NEVER video call you on WhatsApp to demand online bribes.", "hi": "टेक डिफेंडर नियम: भारत के कानून में 'डिजिटल अरेस्ट' नाम की कोई चीज नहीं होती! असली पुलिस या CBI कभी WhatsApp वीडियो कॉल पर डराकर पैसे नहीं मांगती।" }
+    }
+  },
+  {
+    "id": 8,
+    "game_type": "whatsapp_chat",
+    "time_limit": 20,
+    "title": { "en": "Level 8: WhatsApp Hospital Emergency", "hi": "लेवल 8: WhatsApp पर अस्पताल की इमरजेंसी" },
+    "instruction": { "en": "SMART PHONE SKILLS: A message from a friend says he is in the hospital and GPay isn't working! Use the top-right icons to take the safe step!", "hi": "स्मार्टफोन कौशल: दोस्त के नंबर से मैसेज आया है कि वह अस्पताल में है और GPay नहीं चल रहा! ऊपर-दाएं कोने के आइकॉन से सही कदम उठाएं!" },
+    "content": {
+      "sender": { "en": "Rohit (College Friend)", "hi": "रोहित (कॉलेज का दोस्त)" },
+      "status": { "en": "online", "hi": "ऑनलाइन" },
+      "message": { "en": "Brother I am in the hospital in an accident case! My GPay isn't working. Please transfer ₹15,000 to this doctor's number right now!! 🙏🙏", "hi": "भाई मैं अस्पताल में हूँ एक्सीडेंट केस में! मेरा GPay नहीं चल रहा। प्लीज इस डॉक्टर के नंबर पर अभी ₹15,000 ट्रांसफर कर दे!! 🙏🙏" },
+      "fake_input_text": { "en": "🔴 Click to Transfer ₹15,000 to Doctor (Scam)", "hi": "🔴 ₹15,000 डॉक्टर को ट्रांसफर करें (स्कैम)" }
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 EXCELLENT PRESENCE OF MIND!", "hi": "🎉 बहुत बढ़िया सूझबूझ!" },
+      "rule": { "en": "Tech Defender Rule: Scammers hack WhatsApp accounts or spoof profile pictures to ask friends for emergency money. Always tap the top-right Call icon 📞 to verify via normal voice network!", "hi": "टेक डिफेंडर नियम: आजकल स्कैमर्स WhatsApp हैक करके दोस्तों के नाम पर पैसे मांगते हैं। ऊपर दिए गए कॉल आइकॉन 📞 से पहले दोस्त को नॉर्मल नेटवर्क पर कॉल करके सच जानें!" }
+    }
+  },
+  {
+    "id": 9,
+    "game_type": "drag_drop_trash",
+    "time_limit": 15,
+    "title": { "en": "Level 9: WhatsApp KBC Lottery Winner Scam", "hi": "लेवल 9: KBC / जियो लॉटरी विजेता स्कैम" },
+    "instruction": { "en": "WHACK-THE-SPAM: Grab this fake KBC Lottery poster (DRAG) and throw it straight into the DUSTBIN 🗑️ below (DROP)!", "hi": "कचरा साफ करें: इस KBC लॉटरी के फर्जी पोस्टर को पकड़कर (DRAG) नीचे कचरे के डिब्बे 🗑️ में फेंक दें (DROP)!" },
+    "content": {
+      "tag": { "en": "⚠️ WHATSAPP FORWARD MESSAGE", "hi": "⚠️ WhatsApp फॉरवर्ड मैसेज" },
+      "title": { "en": "🎉 KBC & JIO LOTTERY WINNER 🎉", "hi": "🎉 KBC और जियो लॉटरी विजेता 🎉" },
+      "desc": { "en": "Congratulations! You won a ₹25 Lakh lottery. To transfer prize money to your bank, pay ₹5,200 Advance Tax / Processing Fee.", "hi": "बधाई हो! आपने ₹25 लाख की लॉटरी जीती है। इनामी राशि बैंक में पाने के लिए ₹5,200 एडवांस टैक्स / प्रोसेसिंग फीस जमा करें।" },
+      "tip_text": { "en": "👉 Click or Drag & Drop into dustbin below!", "hi": "👉 क्लिक करें या नीचे कचरे के डिब्बे में फेंकें!" },
+      "bin_text": { "en": "DROP IN DUSTBIN (Report Spam)", "hi": "कचरे के डिब्बे में डालें (Report Spam)" }
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 SPAM DESTROYED SUCCESSFULLY!", "hi": "🎉 फर्जी लॉटरी डिलीट हुई!" },
+      "rule": { "en": "Tech Defender Rule: You can NEVER win a lottery you didn't participate in! Legitimate lotteries never demand advance tax or processing fees before releasing winnings.", "hi": "टेक डिफेंडर नियम: जिस लॉटरी या प्रतियोगिता में आपने भाग ही नहीं लिया, उसमें आप कभी नहीं जीत सकते! कोई भी असली लॉटरी जीतने के बाद एडवांस टैक्स नहीं मांगती।" }
+    }
+  },
+  {
+    "id": 10,
+    "game_type": "spot_flags",
+    "time_limit": 15,
+    "title": { "en": "Level 10: Electricity Bill SMS Alert", "hi": "लेवल 10: बिजली बिल कटने का SMS स्कैम" },
+    "instruction": { "en": "SPOT THE LIE: There are 2 fake warning flags hidden in this SMS alert. Click on both of them!", "hi": "झूठ पकड़ो: इस मैसेज में 2 गलत (फर्जी) चीजें छुपी हैं। उन दोनों पर क्लिक करें!" },
+    "content": {
+      "sender": "+91 98765-43210 (Personal Mobile Number)",
+      "message": { "en": "Dear Customer, Your electricity power will be disconnected TONIGHT at 9:30 PM from power office because your previous month bill is not updated. Call Electricity Officer immediately at 9876543210.", "hi": "प्रिय ग्राहक, पिछले महीने का बिल अपडेट न होने के कारण आज रात 9:30 बजे बिजली विभाग द्वारा आपकी लाइट काट दी जाएगी। तुरंत बिजली अधिकारी को 9876543210 पर कॉल करें।" },
+      "tip_text": { "en": "👉 Tip: Click on suspicious parts of the message!", "hi": "👉 टिप: मैसेज के संदिग्ध हिस्सों पर क्लिक करें!" }
+    },
+    "targets": [
+      { "id": "t1", "label": { "en": "Personal Mobile Number", "hi": "पर्सनल मोबाइल नंबर" } },
+      { "id": "t2", "label": { "en": "Threat of Tonight Disconnection", "hi": "आज रात लाइट कटने की धमकी" } }
+    ],
+    "feedback": {
+      "verdict": { "en": "🎉 YOU CAUGHT THE SCAM!", "hi": "🎉 आपने स्कैम पकड़ लिया!" },
+      "rule": { "en": "Tech Defender Rule: Electricity boards NEVER send sudden SMS threats to cut power at night, nor do they ask you to call personal mobile numbers!", "hi": "टेक डिफेंडर नियम: बिजली विभाग कभी भी रात को अचानक लाइट काटने का SMS नहीं भेजता और न ही किसी पर्सनल मोबाइल नंबर पर कॉल करने को कहता है!" }
+    }
+  },
+  {
+    "id": 11,
+    "game_type": "drag_drop_trash",
+    "time_limit": 15,
+    "title": { "en": "Level 11: Telegram Work-From-Home Scam", "hi": "लेवल 11: टेलीग्राम वर्क-फ्रॉम-होम स्कैम" },
+    "instruction": { "en": "CLEANUP TIME: Grab this fake Telegram job offer (DRAG) and throw it into the DUSTBIN 🗑️ below!", "hi": "कचरा साफ करें: इस फर्जी टेलीग्राम जॉब ऑफर को पकड़कर (DRAG) नीचे कचरे के डिब्बे 🗑️ में फेंक दें!" },
+    "content": {
+      "tag": { "en": "⚠️ TELEGRAM JOB OFFER", "hi": "⚠️ टेलीग्राम जॉब ऑफर" },
+      "title": { "en": "💰 LIKE YOUTUBE VIDEOS & EARN ₹3000 DAILY 💰", "hi": "💰 यूट्यूब वीडियो लाइक करें और रोज ₹3000 कमाएं 💰" },
+      "desc": { "en": "Join our VIP Telegram group. Pay ₹1,000 security deposit / registration fee to start earning daily guaranteed income!", "hi": "हमारे VIP टेलीग्राम ग्रुप से जुड़ें। रोज पक्की कमाई शुरू करने के लिए ₹1,000 सिक्योरिटी डिपॉजिट / रजिस्ट्रेशन फीस जमा करें!" },
+      "tip_text": { "en": "👉 Click or Drag & Drop into dustbin below!", "hi": "👉 क्लिक करें या नीचे कचरे के डिब्बे में फेंकें!" },
+      "bin_text": { "en": "DROP IN DUSTBIN (Report Spam)", "hi": "कचरे के डिब्बे में डालें (Report Spam)" }
+    },
+    "feedback": {
+      "verdict": { "en": "🎉 FAKE JOB THROWN IN TRASH!", "hi": "🎉 फर्जी जॉब कचरे में फेंका गया!" },
+      "rule": { "en": "Tech Defender Rule: Any company or online job that demands a 'Security Deposit' or 'Registration Fee' before you start working is 100% FRAUD!", "hi": "टेक डिफेंडर नियम: जो भी कंपनी या ऑनलाइन जॉब काम शुरू होने से पहले आपसे पैसे (रजिस्ट्रेशन फीस / सिक्योरिटी डिपॉजिट) मांगे, वह 100% फ्रॉड है!" }
+    }
+  },
+  {
+    "id": 12,
+    "game_type": "choice_select",
+    "time_limit": 15,
+    "title": { "en": "Level 12: Google Search Customer Care Scam", "hi": "लेवल 12: गूगल सर्च कस्टमर केयर स्कैम" },
+    "instruction": { "en": "SAFE SEARCH: Your courier is delayed. 3 Google search results appear below. Click ONLY the safe, official website!", "hi": "सुरक्षित सर्च: आपका कूरियर लेट है। नीचे 3 गूगल सर्च रिजल्ट आए हैं। सिर्फ सही और सुरक्षित ऑफिशियल वेबसाइट पर क्लिक करें!" },
+    "content": {
+      "search_query": { "en": "BlueDart Courier Customer Care Helpline Number", "hi": "ब्लूडार्ट कूरियर कस्टमर केयर हेल्पलाइन नंबर" }
+    },
+    "options": [
+      {
+        "id": "ad_fake",
+        "title": { "en": "Sponsored Ad: BlueDart Fast Helpline - Call 098999-11223", "hi": "प्रायोजित विज्ञापन (Ad): ब्लूडार्ट हेल्पलाइन - कॉल करें 098999-11223" },
+        "url": "http://bluedart-all-india-support.weebly.com",
+        "is_correct": false
+      },
+      {
+        "id": "official_safe",
+        "title": { "en": "Official BlueDart Support & Tracking Portal", "hi": "ऑफिशियल ब्लूडार्ट सपोर्ट और ट्रैकिंग पोर्टल" },
+        "url": "https://www.bluedart.com/customer-support",
+        "is_correct": true
+      },
+      {
+        "id": "ad_fake2",
+        "title": { "en": "All India Courier Complaint Customer Care 24x7", "hi": "ऑल इंडिया कूरियर शिकायत कस्टमर केयर 24x7" },
+        "url": "http://courier-help-desk-india.in",
+        "is_correct": false
+      }
+    ],
+    "feedback": {
+      "verdict": { "en": "🎉 EXACTLY RIGHT!", "hi": "🎉 बिल्कुल सही चुना!" },
+      "rule": { "en": "Tech Defender Rule: Scammers pay Google to show fake mobile numbers in Top Sponsored Ads. Always verify the HTTPS lock icon and official domain name (e.g., bluedart.com)!", "hi": "टेक डिफेंडर नियम: स्कैमर्स गूगल को पैसे देकर अपने फर्जी मोबाइल नंबर टॉप विज्ञापनों (Ads) में दिखाते हैं। हमेशा लॉक आइकॉन और ऑफिशियल वेबसाइट का नाम देखकर ही क्लिक करें!" }
+    }
+  },
+  {
+    "id": 13,
+    "game_type": "choice_select",
+    "time_limit": 20,
+    "title": { "en": "Level 13: AnyDesk Screen Sharing App Trap", "hi": "लेवल 13: AnyDesk स्क्रीन शेयरिंग ऐप स्कैम" },
+    "instruction": { "en": "BANK REFUND TRAP: A 'Bank Executive' calls claiming your ₹2,500 refund is stuck. He asks you to install 'AnyDesk' from PlayStore and share the 9-digit code. What do you do?", "hi": "बैंक रिफंड स्कैम: 'बैंक अधिकारी' बनकर कॉल आई है कि आपका ₹2,500 रिफंड अटका है। वह आपसे PlayStore से 'AnyDesk' ऐप इंस्टॉल करके 9-अंकों का कोड मांगता है। आप क्या करेंगे?" },
+    "content": {
+      "search_query": { "en": "Caller Demand: Install 'AnyDesk Screen Share' App to receive bank refund", "hi": "कॉलर की मांग: बैंक रिफंड पाने के लिए 'AnyDesk Screen Share' ऐप इंस्टॉल करें" }
+    },
+    "options": [
+      {
+        "id": "install_app",
+        "title": { "en": "Install AnyDesk app and share the 9-digit code to get the refund.", "hi": "रिफंड पाने के लिए AnyDesk ऐप इंस्टॉल करके कोड बता देंगे।" },
+        "url": "Action: Install & Share Code",
+        "is_correct": false
+      },
+      {
+        "id": "refuse_hangup",
+        "title": { "en": "Refuse to install screen sharing apps and hang up immediately.", "hi": "स्क्रीन शेयरिंग ऐप इंस्टॉल करने से साफ मना करेंगे और फोन काट देंगे।" },
+        "url": "Action: Refuse & Hang Up",
+        "is_correct": true
+      }
+    ],
+    "feedback": {
+      "verdict": { "en": "🎉 100% RIGHT DECISION!", "hi": "🎉 100% सही निर्णय!" },
+      "rule": { "en": "Tech Defender Rule: Apps like AnyDesk or TeamViewer give strangers complete remote control over your phone screen and banking apps! NEVER install them on a stranger's request.", "hi": "टेक डिफेंडर नियम: AnyDesk या TeamViewer जैसे ऐप्स से सामने वाले को आपके फोन की पूरी स्क्रीन और बैंकिंग का कंट्रोल मिल जाता है! किसी अनजान के कहने पर इन्हें कभी इंस्टॉल न करें।" }
+    }
+  },
+  {
+    "id": 14,
+    "game_type": "choice_select",
+    "time_limit": 15,
+    "title": { "en": "Level 14: Instagram Cheap iPhone Scam", "hi": "लेवल 14: इंस्टाग्राम सस्ता आईफोन स्कैम" },
+    "instruction": { "en": "SOCIAL MEDIA AD: An Instagram page advertises: 'Brand New iPhone 15 Pro for ₹22,000 Only! Customs seized stock.' Comments are turned off and they demand 50% advance via DM.", "hi": "सोशल मीडिया विज्ञापन: इंस्टाग्राम पर विज्ञापन है: 'नया iPhone 15 Pro सिर्फ ₹22,000 में! कस्टम्स का माल।' कमेंट्स बंद हैं और वे DM में 50% एडवांस मांग रहे हैं।" },
+    "content": {
+      "search_query": { "en": "Instagram Page @Mobile_Deals_Official: iPhone 15 Pro ₹22,000 (Comments Off)", "hi": "इंस्टाग्राम पेज @Mobile_Deals_Official: iPhone 15 Pro ₹22,000 (कमेंट्स बंद)" }
+    },
+    "options": [
+      {
+        "id": "pay_advance",
+        "title": { "en": "It's a huge bargain! Send ₹11,000 advance payment right away.", "hi": "बहुत सस्ता मिल रहा है, तुरंत ₹11,000 एडवांस भेज देते हैं।" },
+        "url": "Action: Pay 50% Advance",
+        "is_correct": false
+      },
+      {
+        "id": "ignore_fake",
+        "title": { "en": "Ignore the ad and report the Instagram page as a Scam.", "hi": "इस विज्ञापन को नजरअंदाज करेंगे और पेज को स्कैम रिपोर्ट करेंगे।" },
+        "url": "Action: Ignore & Report",
+        "is_correct": true
+      }
+    ],
+    "feedback": {
+      "verdict": { "en": "🎉 SPOT ON! SCAM AVOIDED!", "hi": "🎉 बिल्कुल सही पहचाना!" },
+      "rule": { "en": "Tech Defender Rule: If a deal on social media looks too good to be true and comments are disabled to hide victim complaints, it is 100% a fraud! Never pay advances to unknown sellers.", "hi": "टेक डिफेंडर नियम: यदि सोशल मीडिया पर कोई सामान जरूरत से ज्यादा सस्ता मिल रहा हो और लोगों की शिकायतें छुपाने के लिए कमेंट्स बंद हों, तो वह 100% स्कैम है! कभी एडवांस पैसे न भेजें।" }
+    }
+  },
+  {
+    "id": 15,
+    "game_type": "choice_select",
+    "time_limit": 15,
+    "title": { "en": "Level 15: Free Railway Station Wi-Fi Trap", "hi": "लेवल 15: रेलवे स्टेशन फ्री Wi-Fi स्कैम" },
+    "instruction": { "en": "PUBLIC WI-FI TRAP: You are at a railway station. Two Wi-Fi networks appear on your laptop. One requires a simple SMS OTP, while the other asks for your Gmail password/UPI ID to 'unlock high-speed 5G'. Which is safe?", "hi": "पब्लिक Wi-Fi जाल: आप रेलवे स्टेशन पर हैं। लैपटॉप पर दो Wi-Fi दिख रहे हैं। एक में सामान्य SMS OTP चाहिए, जबकि दूसरा 'हाई-स्पीड 5G' देने के बदले Gmail पासवर्ड/UPI ID मांग रहा है। कौन सा सुरक्षित है?" },
+    "content": {
+      "search_query": { "en": "Available Wi-Fi Networks at Railway Station Platform 1", "hi": "रेलवे स्टेशन प्लेटफॉर्म 1 पर उपलब्ध Wi-Fi नेटवर्क" }
+    },
+    "options": [
+      {
+        "id": "evil_twin",
+        "title": { "en": "Connect to 'Free_HighSpeed_5G_WIFI' and enter Gmail password to login.", "hi": "'Free_HighSpeed_5G_WIFI' से जुड़ें और लॉगिन करने के लिए Gmail पासवर्ड डालें।" },
+        "url": "Security: UNENCRYPTED / HACKER TRAP",
+        "is_correct": false
+      },
+      {
+        "id": "official_rail",
+        "title": { "en": "Connect ONLY to official 'RailWire' Wi-Fi via standard SMS verification or use cellular data.", "hi": "सिर्फ ऑफिशियल 'RailWire' Wi-Fi से सामान्य SMS वेरिफिकेशन द्वारा जुड़ें या अपना मोबाइल डेटा इस्तेमाल करें।" },
+        "url": "Security: OFFICIAL SECURE NETWORK",
+        "is_correct": true
+      }
+    ],
+    "feedback": {
+      "verdict": { "en": "🎉 FINAL BOSS DEFEATED! YOU ARE CYBER SAFE!", "hi": "🎉 आखिरी चुनौती पार! आप साइबर सुरक्षित हैं!" },
+      "rule": { "en": "Tech Defender Rule: Hackers setup fake open Wi-Fi networks (Evil Twins) in public places to intercept your passwords and banking data. Never enter sensitive passwords on public Wi-Fi!", "hi": "टेक डिफेंडर नियम: हैकर्स सार्वजनिक जगहों पर फर्जी फ्री Wi-Fi बनाकर आपके पासवर्ड और बैंकिंग डेटा चुराते हैं। पब्लिक Wi-Fi पर कभी भी अपने जरूरी पासवर्ड न डालें!" }
+    }
+  }
+]

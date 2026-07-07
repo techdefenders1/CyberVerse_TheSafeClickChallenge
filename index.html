@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberVerse : The Safe Click Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="os-container">
+
+    <!-- STEP 1: ONBOARDING / WELCOME SCREEN -->
+    <div id="welcome-screen" class="screen-overlay">
+      <div class="welcome-card">
+        <!-- Tech Defender Logo -->
+        <img src="logos1.png" alt="TechDefenders Logo" class="welcome-logo">
+
+        <div class="brand-badge">🛡️TechDefenders(The Cyber Security Experts) PRESENTING</div>
+        <h1 class="game-title">CyberVerse: The Safe Click Challenge</h1>
+        <p class="game-subtitle">Stay Informed,Stay Safe with TechDefenders</p>
+
+        <div class="form-group">
+          <label for="player-name">Enter Your Full Name / अपना पूरा नाम लिखें:</label>
+          <input type="text" id="player-name" placeholder="e.g., Rahul Sharma" maxlength="30" required>
+        </div>
+
+        <div class="form-group">
+          <label>Select Preferred Language / भाषा चुनें:</label>
+          <div class="lang-selector">
+            <label class="lang-option active" data-lang="en">
+              <input type="radio" name="lang" value="en" checked> 🇬🇧 English
+            </label>
+            <label class="lang-option" data-lang="hi">
+              <input type="radio" name="lang" value="hi"> 🇮🇳 हिंदी (Easy Hindi)
+            </label>
+          </div>
+        </div>
+
+        <button id="btn-start-game" class="btn btn-primary start-btn">🚀 Start Challenge / गेम शुरू करें</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: MISSION DASHBOARD / LEVEL SELECT (Hidden by default) -->
+    <div id="dashboard-screen" class="screen-overlay hidden">
+      <div class="dashboard-card">
+        <div class="dash-header">
+          <img src="logos1.png" alt="Logo" class="dash-logo">
+          <div class="dash-header-text">
+            <h1 id="dash-title" class="dash-title">MISSION DASHBOARD</h1>
+            <p id="dash-subtitle" class="dash-subtitle">Select a level to begin your training</p>
+          </div>
+        </div>
+
+        <div class="dash-stats-row">
+          <div class="dash-stat">
+            <span id="dash-lbl-player" class="dash-stat-label">PLAYER</span>
+            <strong id="dash-player-name" class="dash-stat-value">-</strong>
+          </div>
+          <div class="dash-stat">
+            <span id="dash-lbl-score" class="dash-stat-label">TRUST SCORE</span>
+            <strong id="dash-score" class="dash-stat-value score-color">100%</strong>
+          </div>
+          <div class="dash-stat dash-progress-stat">
+            <span id="dash-lbl-progress" class="dash-stat-label">LEVELS CLEARED</span>
+            <strong id="dash-progress-text" class="dash-stat-value">0/15</strong>
+            <div class="dash-progress-track"><div id="dash-progress-fill" class="dash-progress-fill"></div></div>
+          </div>
+        </div>
+
+        <div id="dashboard-grid" class="dashboard-grid"></div>
+
+        <div id="dash-locked-msg" class="dash-locked-msg hidden">🔒 Complete the previous level to unlock this one!</div>
+      </div>
+    </div>
+
+    <!-- STEP 3: MAIN GAME WORKSPACE (Hidden by default) -->
+    <div id="game-workspace" class="workspace-container hidden">
+      <!-- Top HUD Bar -->
+      <header class="hud-header">
+        <div class="hud-brand">
+          <img src="logos1.png" alt="Logo" class="hud-logo">
+          <span>CyberVerse : The Safe Click Challenge</span>
+        </div>
+        <button id="btn-back-dashboard" class="hud-map-btn" title="Back to Mission Dashboard">🗺️ <span id="lbl-map-btn">MAP</span></button>
+        <div class="hud-stats">
+          <div class="stat-box"><span id="lbl-player">PLAYER:</span> <strong id="player-display">-</strong></div>
+          <div class="stat-box"><span id="lbl-level">LEVEL:</span> <strong id="level-display">1/15</strong></div>
+          <div class="stat-box timer-box"><span id="lbl-time">TIME:</span> <strong id="timer-display">15s</strong></div>
+          <div class="stat-box score-box"><span id="lbl-score">TRUST SCORE:</span> <strong id="score-display">100%</strong></div>
+        </div>
+      </header>
+
+      <!-- Main Arena -->
+      <main class="arena">
+        <div class="instruction-bar">
+          <span class="pulse-icon">⚠️</span>
+          <span id="instruction-text">Loading scenario...</span>
+        </div>
+
+        <!-- Dynamic Interactive Game Stage -->
+        <div id="game-stage" class="game-stage"></div>
+      </main>
+    </div>
+
+    <!-- STEP 4: ENDGAME & CERTIFICATE SCREEN (Hidden by default) -->
+    <div id="endgame-screen" class="screen-overlay hidden">
+      <div class="endgame-card">
+        <img src="logos1.png" alt="Logo" class="endgame-logo">
+        <h1 id="endgame-title" class="endgame-title">CHALLENGE COMPLETE!</h1>
+        <p id="endgame-subtitle" class="endgame-subtitle"></p>
+
+        <!-- Certificate Viewport -->
+        <div id="cert-container" class="cert-container hidden">
+          <div class="cert-tip">👉 Your Official TechDefenders(The Cyber Security Experts) Verified Certificate:</div>
+          <canvas id="cert-canvas" width="900" height="600" class="cert-canvas"></canvas>
+
+          <div class="cert-actions">
+            <a id="btn-download-png" class="btn btn-success" download="TechDefenders_Certificate.png">⬇️ Download PNG</a>
+            <button id="btn-download-pdf" class="btn btn-primary">📄 Download PDF (jsPDF)</button>
+          </div>
+        </div>
+
+        <button id="btn-restart" class="btn btn-outline restart-btn">🔄 Restart Challenge / दोबारा खेलें</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer Branding -->
+  <footer class="page-footer">
+    Developed By: <strong>TechDefenders(The Cyber Security Experts)</strong>
+  </footer>
+
+  <!-- Instant Feedback Modal -->
+  <div id="feedback-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2 id="modal-title" class="modal-title">MISSION SUCCESS!</h2>
+      <div class="modal-badge" id="modal-tactic">Safe Action</div>
+      <p id="modal-desc" class="modal-desc"></p>
+      <button id="btn-next" class="btn btn-primary">CONTINUE ➡️ / जारी रखें</button>
+    </div>
+  </div>
+
+  <!-- Floating Audio Control (music + SFX mute toggle) -->
+  <button id="audio-toggle" class="audio-toggle-btn" title="Toggle Music &amp; Sound">🔊</button>
+
+  <!-- Floating Voice Narration Control (question/options/tips read-aloud toggle) -->
+  <button id="voice-toggle" class="audio-toggle-btn voice-toggle-btn" title="Toggle Voice Narration">🗣️</button>
+
+  <!-- Add jsPDF Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="audio.js"></script>
+  <script src="voice.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
