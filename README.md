@@ -201,11 +201,9 @@ Contributions, ideas, and suggestions are welcome. If you would like to contribu
 # 📬 Contact
 
 **TechDefenders (The Cyber Security Experts)**
-
-**Founder:** Ujjwal Kumawat
-
-- 💼 LinkedIn: https://linkedin.com/in/ujjwalkumawat
-- 📺 YouTube: TechDefenders (The Cyber Security Experts)
+- 📧 Email Id : techdefenders11@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/company/techdefenders-the-cyber-security-experts/
+- 📺 YouTube: http://www.youtube.com/@Techdefenders1?sub_confirmation=1
 
 ---
 
