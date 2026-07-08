@@ -18,7 +18,7 @@
     "correct_action": "reject",
     "feedback": {
       "verdict": { "en": "🎉 PERFECT ACTION!", "hi": "🎉 बिल्कुल सही कदम!" },
-      "rule": { "en": "Tech Defender Rule: UPI PIN is ONLY entered to SEND money. You NEVER need a PIN to receive money!", "hi": "टेक डिफेंडर नियम: UPI PIN सिर्फ किसी को पैसे भेजने (Send) के लिए डाला जाता है। पैसे प्राप्त (Receive) करने के लिए कभी PIN नहीं लगता!" }
+      "rule": { "en": "TechDefenders Rule: UPI PIN is ONLY entered to SEND money. You NEVER need a PIN to receive money!", "hi": "टेकडिफेंडर्स नियम: UPI PIN सिर्फ किसी को पैसे भेजने (Send) के लिए डाला जाता है। पैसे प्राप्त (Receive) करने के लिए कभी PIN नहीं लगता!" }
     }
   },
   {
@@ -37,7 +37,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 FAMILY PROTECTED!", "hi": "🎉 परिवार सुरक्षित हुआ!" },
-      "rule": { "en": "Tech Defender Rule: Free recharge or government ration forwards in family groups are 100% phishing scams. Protect your elders immediately!", "hi": "टेक डिफेंडर नियम: फैमिली ग्रुप्स में आने वाले फ्री रिचार्ज या योजना के मैसेज 100% फर्जी लिंक होते हैं। अपने बड़ों को तुरंत सचेत करें!" }
+      "rule": { "en": "TechDefenders Rule: Free recharge or government ration forwards in family groups are 100% phishing scams. Protect your elders immediately!", "hi": "टेकडिफेंडर्स नियम: फैमिली ग्रुप्स में आने वाले फ्री रिचार्ज या योजना के मैसेज 100% फर्जी लिंक होते हैं। अपने बड़ों को तुरंत सचेत करें!" }
     }
   },
   {
@@ -53,7 +53,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 NOW YOU KNOW THEIR TRICK!", "hi": "🎉 अब आप उनकी चालाकी समझ गए!" },
-      "rule": { "en": "Tech Defender Rule: Scammers always combine URGENCY (fear of account blocking) with LOOKALIKE LINKS (typosquatting) to make you click without thinking.", "hi": "टेक डिफेंडर नियम: स्कैमर्स हमेशा जल्दबाजी (खाता बंद होने का डर) और मिलते-जुलते फर्जी लिंक का इस्तेमाल करते हैं ताकि आप बिना सोचे क्लिक कर दें।" }
+      "rule": { "en": "TechDefenders Rule: Scammers always combine URGENCY (fear of account blocking) with LOOKALIKE LINKS (typosquatting) to make you click without thinking.", "hi": "टेकडिफेंडर्स नियम: स्कैमर्स हमेशा जल्दबाजी (खाता बंद होने का डर) और मिलते-जुलते फर्जी लिंक का इस्तेमाल करते हैं ताकि आप बिना सोचे क्लिक कर दें।" }
     }
   },
   {
@@ -72,7 +72,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 EMERGENCY CONTROLLED!", "hi": "🎉 खतरा टल गया!" },
-      "rule": { "en": "Tech Defender Rule: If you click a bad link, don't panic! First, enable Flight Mode to sever internet access so hackers can't steal data. Then freeze accounts and dial 1930!", "hi": "टेक डिफेंडर नियम: यदि गलत लिंक पर क्लिक हो जाए, तो घबराएं नहीं! सबसे पहले फ्लाइट मोड ON करें ताकि इंटरनेट कटे और हैकर डेटा ना चुरा सके। फिर बैंक सूचित करें और 1930 मिलाएं!" }
+      "rule": { "en": "TechDefenders Rule: If you click a bad link, don't panic! First, enable Flight Mode to sever internet access so hackers can't steal data. Then freeze accounts and dial 1930!", "hi": "टेकडिफेंडर्स नियम: यदि गलत लिंक पर क्लिक हो जाए, तो घबराएं नहीं! सबसे पहले फ्लाइट मोड ON करें ताकि इंटरनेट कटे और हैकर डेटा ना चुरा सके। फिर बैंक सूचित करें और 1930 मिलाएं!" }
     }
   },
   {
@@ -89,7 +89,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 FAKE STICKER REMOVED!", "hi": "🎉 फर्जी स्टिकर हट गया!" },
-      "rule": { "en": "Tech Defender Rule: Always check physical payment QR stands at shops to ensure no fake sticker is pasted over the original. Verify the shopkeeper's name on your screen!", "hi": "टेक डिफेंडर नियम: दुकानों पर पेमेंट करते समय ध्यान दें कि QR स्टैंड के ऊपर कोई अलग से फर्जी स्टिकर तो नहीं चिपका है। स्क्रीन पर दुकानदार का नाम जरूर देखें!" }
+      "rule": { "en": "TechDefenders Rule: Always check physical payment QR stands at shops to ensure no fake sticker is pasted over the original. Verify the shopkeeper's name on your screen!", "hi": "टेकडिफेंडर्स नियम: दुकानों पर पेमेंट करते समय ध्यान दें कि QR स्टैंड के ऊपर कोई अलग से फर्जी स्टिकर तो नहीं चिपका है। स्क्रीन पर दुकानदार का नाम जरूर देखें!" }
     }
   },
   {
@@ -109,7 +109,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 AI DEEPFAKE CAUGHT!", "hi": "🎉 AI की नकली आवाज पकड़ी गई!" },
-      "rule": { "en": "Tech Defender Rule: Scammers use AI audio cloning to mimic family members in emergencies. Always establish a 'Secret Family Password / Question' that scammers cannot guess!", "hi": "टेक डिफेंडर नियम: आजकल AI टूल्स से परिवार वालों की आवाज कॉपी करके डराया जाता है। घर में एक 'सीक्रेट पासवर्ड सवाल' रखें जो सिर्फ परिवार को पता हो!" }
+      "rule": { "en": "TechDefenders Rule: Scammers use AI audio cloning to mimic family members in emergencies. Always establish a 'Secret Family Password / Question' that scammers cannot guess!", "hi": "टेकडिफेंडर्स नियम: आजकल AI टूल्स से परिवार वालों की आवाज कॉपी करके डराया जाता है। घर में एक 'सीक्रेट पासवर्ड सवाल' रखें जो सिर्फ परिवार को पता हो!" }
     }
   },
   {
@@ -127,7 +127,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 PERFECT REFLEX! CALL DISCONNECTED!", "hi": "🎉 बिल्कुल सही! कॉल काट दी गई!" },
-      "rule": { "en": "Tech Defender Rule: There is NO concept of 'Digital Arrest' in Indian law! Real police or CBI will NEVER video call you on WhatsApp to demand online bribes.", "hi": "टेक डिफेंडर नियम: भारत के कानून में 'डिजिटल अरेस्ट' नाम की कोई चीज नहीं होती! असली पुलिस या CBI कभी WhatsApp वीडियो कॉल पर डराकर पैसे नहीं मांगती।" }
+      "rule": { "en": "TechDefenders Rule: There is NO concept of 'Digital Arrest' in Indian law! Real police or CBI will NEVER video call you on WhatsApp to demand online bribes.", "hi": "टेकडिफेंडर्स नियम: भारत के कानून में 'डिजिटल अरेस्ट' नाम की कोई चीज नहीं होती! असली पुलिस या CBI कभी WhatsApp वीडियो कॉल पर डराकर पैसे नहीं मांगती।" }
     }
   },
   {
@@ -144,7 +144,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 EXCELLENT PRESENCE OF MIND!", "hi": "🎉 बहुत बढ़िया सूझबूझ!" },
-      "rule": { "en": "Tech Defender Rule: Scammers hack WhatsApp accounts or spoof profile pictures to ask friends for emergency money. Always tap the top-right Call icon 📞 to verify via normal voice network!", "hi": "टेक डिफेंडर नियम: आजकल स्कैमर्स WhatsApp हैक करके दोस्तों के नाम पर पैसे मांगते हैं। ऊपर दिए गए कॉल आइकॉन 📞 से पहले दोस्त को नॉर्मल नेटवर्क पर कॉल करके सच जानें!" }
+      "rule": { "en": "TechDefenders Rule: Scammers hack WhatsApp accounts or spoof profile pictures to ask friends for emergency money. Always tap the top-right Call icon 📞 to verify via normal voice network!", "hi": "टेकडिफेंडर्स नियम: आजकल स्कैमर्स WhatsApp हैक करके दोस्तों के नाम पर पैसे मांगते हैं। ऊपर दिए गए कॉल आइकॉन 📞 से पहले दोस्त को नॉर्मल नेटवर्क पर कॉल करके सच जानें!" }
     }
   },
   {
@@ -162,7 +162,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 SPAM DESTROYED SUCCESSFULLY!", "hi": "🎉 फर्जी लॉटरी डिलीट हुई!" },
-      "rule": { "en": "Tech Defender Rule: You can NEVER win a lottery you didn't participate in! Legitimate lotteries never demand advance tax or processing fees before releasing winnings.", "hi": "टेक डिफेंडर नियम: जिस लॉटरी या प्रतियोगिता में आपने भाग ही नहीं लिया, उसमें आप कभी नहीं जीत सकते! कोई भी असली लॉटरी जीतने के बाद एडवांस टैक्स नहीं मांगती।" }
+      "rule": { "en": "TechDefenders Rule: You can NEVER win a lottery you didn't participate in! Legitimate lotteries never demand advance tax or processing fees before releasing winnings.", "hi": "टेकडिफेंडर्स नियम: जिस लॉटरी या प्रतियोगिता में आपने भाग ही नहीं लिया, उसमें आप कभी नहीं जीत सकते! कोई भी असली लॉटरी जीतने के बाद एडवांस टैक्स नहीं मांगती।" }
     }
   },
   {
@@ -182,7 +182,7 @@
     ],
     "feedback": {
       "verdict": { "en": "🎉 YOU CAUGHT THE SCAM!", "hi": "🎉 आपने स्कैम पकड़ लिया!" },
-      "rule": { "en": "Tech Defender Rule: Electricity boards NEVER send sudden SMS threats to cut power at night, nor do they ask you to call personal mobile numbers!", "hi": "टेक डिफेंडर नियम: बिजली विभाग कभी भी रात को अचानक लाइट काटने का SMS नहीं भेजता और न ही किसी पर्सनल मोबाइल नंबर पर कॉल करने को कहता है!" }
+      "rule": { "en": "TechDefenders Rule: Electricity boards NEVER send sudden SMS threats to cut power at night, nor do they ask you to call personal mobile numbers!", "hi": "टेकडिफेंडर्स नियम: बिजली विभाग कभी भी रात को अचानक लाइट काटने का SMS नहीं भेजता और न ही किसी पर्सनल मोबाइल नंबर पर कॉल करने को कहता है!" }
     }
   },
   {
@@ -200,7 +200,7 @@
     },
     "feedback": {
       "verdict": { "en": "🎉 FAKE JOB THROWN IN TRASH!", "hi": "🎉 फर्जी जॉब कचरे में फेंका गया!" },
-      "rule": { "en": "Tech Defender Rule: Any company or online job that demands a 'Security Deposit' or 'Registration Fee' before you start working is 100% FRAUD!", "hi": "टेक डिफेंडर नियम: जो भी कंपनी या ऑनलाइन जॉब काम शुरू होने से पहले आपसे पैसे (रजिस्ट्रेशन फीस / सिक्योरिटी डिपॉजिट) मांगे, वह 100% फ्रॉड है!" }
+      "rule": { "en": "TechDefenders Rule: Any company or online job that demands a 'Security Deposit' or 'Registration Fee' before you start working is 100% FRAUD!", "hi": "टेकडिफेंडर्स नियम: जो भी कंपनी या ऑनलाइन जॉब काम शुरू होने से पहले आपसे पैसे (रजिस्ट्रेशन फीस / सिक्योरिटी डिपॉजिट) मांगे, वह 100% फ्रॉड है!" }
     }
   },
   {
@@ -234,7 +234,7 @@
     ],
     "feedback": {
       "verdict": { "en": "🎉 EXACTLY RIGHT!", "hi": "🎉 बिल्कुल सही चुना!" },
-      "rule": { "en": "Tech Defender Rule: Scammers pay Google to show fake mobile numbers in Top Sponsored Ads. Always verify the HTTPS lock icon and official domain name (e.g., bluedart.com)!", "hi": "टेक डिफेंडर नियम: स्कैमर्स गूगल को पैसे देकर अपने फर्जी मोबाइल नंबर टॉप विज्ञापनों (Ads) में दिखाते हैं। हमेशा लॉक आइकॉन और ऑफिशियल वेबसाइट का नाम देखकर ही क्लिक करें!" }
+      "rule": { "en": "TechDefenders Rule: Scammers pay Google to show fake mobile numbers in Top Sponsored Ads. Always verify the HTTPS lock icon and official domain name (e.g., bluedart.com)!", "hi": "टेकडिफेंडर्स नियम: स्कैमर्स गूगल को पैसे देकर अपने फर्जी मोबाइल नंबर टॉप विज्ञापनों (Ads) में दिखाते हैं। हमेशा लॉक आइकॉन और ऑफिशियल वेबसाइट का नाम देखकर ही क्लिक करें!" }
     }
   },
   {
@@ -262,7 +262,7 @@
     ],
     "feedback": {
       "verdict": { "en": "🎉 100% RIGHT DECISION!", "hi": "🎉 100% सही निर्णय!" },
-      "rule": { "en": "Tech Defender Rule: Apps like AnyDesk or TeamViewer give strangers complete remote control over your phone screen and banking apps! NEVER install them on a stranger's request.", "hi": "टेक डिफेंडर नियम: AnyDesk या TeamViewer जैसे ऐप्स से सामने वाले को आपके फोन की पूरी स्क्रीन और बैंकिंग का कंट्रोल मिल जाता है! किसी अनजान के कहने पर इन्हें कभी इंस्टॉल न करें।" }
+      "rule": { "en": "TechDefenders Rule: Apps like AnyDesk or TeamViewer give strangers complete remote control over your phone screen and banking apps! NEVER install them on a stranger's request.", "hi": "टेकडिफेंडर्स नियम: AnyDesk या TeamViewer जैसे ऐप्स से सामने वाले को आपके फोन की पूरी स्क्रीन और बैंकिंग का कंट्रोल मिल जाता है! किसी अनजान के कहने पर इन्हें कभी इंस्टॉल न करें।" }
     }
   },
   {
@@ -290,7 +290,7 @@
     ],
     "feedback": {
       "verdict": { "en": "🎉 SPOT ON! SCAM AVOIDED!", "hi": "🎉 बिल्कुल सही पहचाना!" },
-      "rule": { "en": "Tech Defender Rule: If a deal on social media looks too good to be true and comments are disabled to hide victim complaints, it is 100% a fraud! Never pay advances to unknown sellers.", "hi": "टेक डिफेंडर नियम: यदि सोशल मीडिया पर कोई सामान जरूरत से ज्यादा सस्ता मिल रहा हो और लोगों की शिकायतें छुपाने के लिए कमेंट्स बंद हों, तो वह 100% स्कैम है! कभी एडवांस पैसे न भेजें।" }
+      "rule": { "en": "TechDefenders Rule: If a deal on social media looks too good to be true and comments are disabled to hide victim complaints, it is 100% a fraud! Never pay advances to unknown sellers.", "hi": "टेकडिफेंडर्स नियम: यदि सोशल मीडिया पर कोई सामान जरूरत से ज्यादा सस्ता मिल रहा हो और लोगों की शिकायतें छुपाने के लिए कमेंट्स बंद हों, तो वह 100% स्कैम है! कभी एडवांस पैसे न भेजें।" }
     }
   },
   {
@@ -318,7 +318,7 @@
     ],
     "feedback": {
       "verdict": { "en": "🎉 FINAL BOSS DEFEATED! YOU ARE CYBER SAFE!", "hi": "🎉 आखिरी चुनौती पार! आप साइबर सुरक्षित हैं!" },
-      "rule": { "en": "Tech Defender Rule: Hackers setup fake open Wi-Fi networks (Evil Twins) in public places to intercept your passwords and banking data. Never enter sensitive passwords on public Wi-Fi!", "hi": "टेक डिफेंडर नियम: हैकर्स सार्वजनिक जगहों पर फर्जी फ्री Wi-Fi बनाकर आपके पासवर्ड और बैंकिंग डेटा चुराते हैं। पब्लिक Wi-Fi पर कभी भी अपने जरूरी पासवर्ड न डालें!" }
+      "rule": { "en": "TechDefenders Rule: Hackers setup fake open Wi-Fi networks (Evil Twins) in public places to intercept your passwords and banking data. Never enter sensitive passwords on public Wi-Fi!", "hi": "टेकडिफेंडर्स नियम: हैकर्स सार्वजनिक जगहों पर फर्जी फ्री Wi-Fi बनाकर आपके पासवर्ड और बैंकिंग डेटा चुराते हैं। पब्लिक Wi-Fi पर कभी भी अपने जरूरी पासवर्ड न डालें!" }
     }
   }
 ]
